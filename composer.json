@@ -1,0 +1,20 @@
+{
+    "name": "ranvis/ext-cbor-stub",
+    "description": "Stub files for CBOR codec extension",
+	"keywords": ["CBOR"],
+    "type": "library",
+    "license": "BSD-2-Clause",
+	"homepage": "https://github.com/ranvis/php-ext-cbor-stub/blob/master/README.md",
+    "autoload": {
+        "psr-4": {
+            "Cbor\\": "stubs/cbor/"
+        }
+    },
+    "authors": [
+        {
+			"name": "SATO Kentaro",
+			"email": "kentaro@ranvis.com"
+        }
+    ],
+    "require": {}
+}
