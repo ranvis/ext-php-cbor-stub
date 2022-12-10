@@ -13,8 +13,10 @@ BSD 2-Clause License
 This package contains stub definitions for [CBOR codec extension](https://github.com/ranvis/php-ext-cbor/).
 IDE can autocomplete symbols available in the extension by installing it.
 
-The package also provides interfaces for autoloading.
-Applications implementing those can fallback when the extension is not available.
+The package also provides the extension's interfaces for autoloading.
+Userland applications implementing those will not break when the extension is not available.
+
+To make this fallback possible, this package itself does not add a dependency to the extension.
 
 
 ## Installation
@@ -25,4 +27,4 @@ composer require ranvis/ext-cbor-stub:~0.4
 
 The version of this package should be in synchronized with the extension.
 
-Add `--dev` option if the extension is always available on production, so that the stub is omitted on that environment.
+You may add `--dev` option if the extension is always available on production, so that the package is omitted on that environment.
