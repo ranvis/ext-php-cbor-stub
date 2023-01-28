@@ -16,13 +16,13 @@ IDE can autocomplete symbols available in the extension by installing it.
 The package also provides the extension's interfaces for autoloading.
 Userland applications implementing those will not break when the extension is not available.
 
-To make this fallback possible, this package itself does not add a dependency to the extension.
+To make this fallback possible, this package itself does not declare a dependency to the extension.
 
 
 ## Installation
 
 `
-composer require ranvis/ext-cbor-stub:~0.4
+composer require "ranvis/ext-cbor-stub:^0.4"
 `
 
 The version of this package should be in synchronized with the extension.
