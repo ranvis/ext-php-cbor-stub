@@ -11,7 +11,7 @@ BSD 2-Clause License
 ## What is this?
 
 This package contains stub definitions for [CBOR codec extension](https://github.com/ranvis/php-ext-cbor/).
-IDE can autocomplete symbols available in the extension by installing it.
+IDE can autocomplete symbols available in the extension by installing this package.
 
 The package also provides the extension's interfaces for autoloading.
 Userland applications implementing those will not break when the extension is not available.
